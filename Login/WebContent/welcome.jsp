@@ -21,7 +21,7 @@ if(session.getAttribute("username")==null)
 	
 <a href="videos.jsp">Link to videos</a>
 
-<form action="Logout">
+<form action="Logout" method="post">
 	<input type="submit" value="LogOut">
 </form>
 </body>
